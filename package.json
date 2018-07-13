@@ -1,0 +1,29 @@
+{
+  "name": "susty-sass",
+  "version": "1.0.0",
+  "description": "Hello. I'm a super-lightweight theme called `Susty`. I have been built to demonstrate how small a WordPress site can be (just 6KB of data transfer, or 7 with Yoast!).",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brohlson/susty-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brohlson/susty-sass/issues"
+  },
+  "homepage": "https://github.com/brohlson/susty-sass#readme",
+  "dependencies": {
+    "autoprefixer": "^8.6.5",
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
