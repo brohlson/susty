@@ -4,7 +4,7 @@
   "description": "Hello. I'm a super-lightweight theme called `Susty`. I have been built to demonstrate how small a WordPress site can be (just 6KB of data transfer, or 7 with Yoast!).",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently \"gulp\" \"parcel watch scripts/index.js --out-dir ./ --out-file build.js\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "dependencies": {
     "autoprefixer": "^8.6.5",
     "browser-sync": "^2.24.5",
+    "concurrently": "^4.1.0",
     "gulp": "^3.9.1",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-plumber": "^1.2.0",

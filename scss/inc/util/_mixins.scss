@@ -1,0 +1,30 @@
+@mixin mobile() {
+    @media screen and (max-width: $bpMobile) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @media screen and (min-width: $bpMobile) and (max-width: $bpTablet) {
+        @content;
+    }
+}
+
+@mixin desktop() {
+    @media screen and (min-width: $bpTablet) {
+        @content;
+    }
+}
+
+@mixin textStyle($font, $line) {
+    font-size: $font;
+    line-height: $line;
+}
+
+@mixin headerOffset() {
+    padding-top: 60px;
+
+    @include mobile() {
+        padding-top: 100px;
+    }
+}
